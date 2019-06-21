@@ -24,4 +24,5 @@ func main() {
 	records = append(records, student2)
 	// print
 	fmt.Println(records)
+	fmt.Println(append(records, records...))
 }
