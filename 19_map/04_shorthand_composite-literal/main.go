@@ -9,4 +9,8 @@ func main() {
 	myGreeting["Jenny"] = "Bonjour."
 
 	fmt.Println(myGreeting)
+
+	for key, value := range myGreeting {
+		fmt.Println(key, value)
+	}
 }

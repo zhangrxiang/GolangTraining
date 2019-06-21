@@ -13,4 +13,8 @@ func main() {
 	fmt.Println(myGreeting)
 	myGreeting["Harleen"] = "Gidday"
 	fmt.Println(myGreeting)
+	delete(myGreeting, "Tim")
+	fmt.Println(myGreeting)
+	delete(myGreeting, "Tim")
+	fmt.Println(myGreeting)
 }

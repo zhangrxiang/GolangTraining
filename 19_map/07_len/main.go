@@ -12,4 +12,8 @@ func main() {
 	myGreeting["Harleen"] = "Howdy"
 
 	fmt.Println(len(myGreeting))
+	myGreeting["Harleen"] = "Howdy"
+	fmt.Println(len(myGreeting)) //3
+	myGreeting["zing"] = "Howdy"
+	fmt.Println(len(myGreeting)) //4
 }
