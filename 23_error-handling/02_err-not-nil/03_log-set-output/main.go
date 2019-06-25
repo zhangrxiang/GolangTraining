@@ -7,7 +7,7 @@ import (
 )
 
 func init() {
-	nf, err := os.Create("log.txt")
+	nf, err := os.OpenFile("23_error-handling/02_err-not-nil/03_log-set-output/log.txt", os.O_CREATE|os.O_APPEND, 0777)
 	if err != nil {
 		fmt.Println(err)
 	}
