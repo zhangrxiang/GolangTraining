@@ -9,4 +9,6 @@ func main() {
 	fmt.Println(message)
 	fmt.Printf("%T\n", message)
 	fmt.Printf("%T\n", string(message))
+	fmt.Printf("%T\n", []byte(message))
+	fmt.Printf("%T\n", []rune(message))
 }

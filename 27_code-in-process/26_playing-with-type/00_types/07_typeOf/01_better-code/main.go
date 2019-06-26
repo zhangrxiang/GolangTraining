@@ -13,6 +13,7 @@ func main() {
 	h := `h`                             // back ticks
 
 	fmt.Println("a - ", reflect.TypeOf(a), " - ", a)
+	fmt.Println("a - ", reflect.ValueOf(a), " - ", a)
 	fmt.Println("b - ", reflect.TypeOf(b), " - ", b)
 	fmt.Println("c - ", reflect.TypeOf(c), " - ", c)
 	fmt.Println("d - ", reflect.TypeOf(d), " - ", d)

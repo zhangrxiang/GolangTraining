@@ -9,6 +9,10 @@ func main() {
 	intro = "Hahahaha!"
 	fmt.Println(intro)
 	fmt.Println(&intro)
+	str := "hello world"
+	intro = str
+	fmt.Println(&str)
+	fmt.Println(&intro)
 	//  the below is invalid
 	//	intro[0] = 70
 	//	fmt.Println(intro)
