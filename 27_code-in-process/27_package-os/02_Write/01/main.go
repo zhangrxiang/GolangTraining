@@ -7,12 +7,15 @@ import (
 
 func main() {
 
-	dst, err := os.Create(os.Args[1])
+	args := os.Args
+	if len(args) <= 1 {
+		args = append(args, "27_code-in-process/27_package-os/02_Write/01/test.txt")
+	}
+	dst, err := os.Create(args[1])
 	if err != nil {
 		log.Fatalf("error creating destination file:%v ", err)
 	}
 	defer dst.Close()
-
 	dst.Write([]byte("Hello World"))
 }
 

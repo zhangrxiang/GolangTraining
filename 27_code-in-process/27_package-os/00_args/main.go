@@ -6,8 +6,15 @@ import (
 )
 
 func main() {
-	entry := os.Args[1]
-	fmt.Println(entry)
+
+	if len(os.Args) > 1 {
+		entry := os.Args[1]
+		fmt.Println(os.Args[0])
+		fmt.Println(entry)
+	} else {
+		fmt.Println(fmt.Println(os.Args))
+	}
+
 }
 
 /*
