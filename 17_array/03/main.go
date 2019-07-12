@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	var x [256]int
 
+	fmt.Printf("%T\n",x)
 	fmt.Println(len(x))
 	fmt.Println(x[42])
 	for i := 0; i < 256; i++ {
