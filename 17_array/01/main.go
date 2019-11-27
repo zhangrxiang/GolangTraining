@@ -9,4 +9,5 @@ func main() {
 	fmt.Println(x[42])
 	x[42] = 777
 	fmt.Println(x[42])
+	fmt.Println(x)
 }

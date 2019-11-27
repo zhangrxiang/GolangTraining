@@ -26,4 +26,5 @@ func main() {
 	greeting[2] = "dias!"
 
 	fmt.Println(greeting[2])
+	fmt.Println(greeting)
 }

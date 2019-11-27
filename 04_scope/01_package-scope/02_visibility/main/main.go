@@ -1,8 +1,8 @@
 package main
 
 import (
+	"GolangTraining/04_scope/01_package-scope/02_visibility/vis"
 	"fmt"
-	"github.com/GoesToEleven/GolangTraining/04_scope/01_package-scope/02_visibility/vis"
 )
 
 func main() {

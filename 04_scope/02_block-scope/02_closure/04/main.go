@@ -14,6 +14,27 @@ func main() {
 	increment := wrapper()
 	fmt.Println(increment())
 	fmt.Println(increment())
+	fmt.Println(wrapper()())
+
+	x := func() func() int {
+		x := 10
+		return func() int {
+			x++
+			return x
+		}
+	}()
+
+	fmt.Println(x())
+	fmt.Println(x())
+
+	x2 := func() func() int {
+		x := 10
+		return func() int {
+			x++
+			return x
+		}
+	}()()
+	fmt.Println(x2)
 }
 
 /*

@@ -11,4 +11,11 @@ func makeGreeter() func() string {
 func main() {
 	greet := makeGreeter()
 	fmt.Println(greet())
+	fmt.Println(makeGreeter()())
+
+	f := func() interface{} {
+		return 1
+	}()
+
+	fmt.Println(f)
 }

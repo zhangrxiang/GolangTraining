@@ -13,4 +13,7 @@ func world() {
 func main() {
 	defer world()
 	hello()
+	defer func() {
+		fmt.Println("ha")
+	}()
 }

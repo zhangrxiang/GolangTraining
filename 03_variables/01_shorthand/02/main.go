@@ -19,4 +19,7 @@ func main() {
 	fmt.Printf("%T \n", e)
 	fmt.Printf("%T \n", f)
 	fmt.Printf("%T \n", g)
+	fmt.Printf("%T \n", int64(g))
+	fmt.Printf("%v \n", int64(10) == 10)
+	fmt.Printf("%v \n", int32(10) == 10)
 }
