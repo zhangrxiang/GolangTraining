@@ -1,1 +1,2 @@
-2016/02/17 04:35:28 err happened open no-file.txt: no such file or directory
+2019/06/21 15:54:43 err happened open no-file.txt: The system cannot find the file specified.
+2019/06/21 15:54:50 err happened open no-file.txt: The system cannot find the file specified.
