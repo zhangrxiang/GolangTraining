@@ -11,6 +11,8 @@ func main() {
 	fmt.Println(s)
 	sort.Sort(sort.Reverse(sort.StringSlice(s)))
 	fmt.Println(s)
+	sort.Strings(s)
+	fmt.Println(s)
 
 	// for experimentation to understand what's going on:
 	// uncomment and experiment with the code below:

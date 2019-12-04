@@ -11,5 +11,7 @@ func main() {
 	fmt.Println(n)
 	sort.Sort(sort.IntSlice(n))
 	fmt.Println(n)
+	sort.Sort(sort.Reverse(sort.IntSlice(n)))
+	fmt.Println(n)
 
 }

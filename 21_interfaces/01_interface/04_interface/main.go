@@ -42,7 +42,9 @@ func totalArea(shapes ...shape) float64 {
 func main() {
 	s := square{10}
 	c := circle{5}
+	a := circle{6}
 	info(s)
 	info(c)
-	fmt.Println("Total Area: ", totalArea(c, s))
+	info(a)
+	fmt.Println("Total Area: ", totalArea(c, s, a))
 }
